@@ -1,8 +1,7 @@
 {
-  "name": "sandbox",
+  "name": "gulpexamples",
   "version": "1.0.0",
-  "description": "Testing the NPM Init Tool",
-  "main": "index.js",
+  "description": "Repository for collecting Gulp Examples",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
