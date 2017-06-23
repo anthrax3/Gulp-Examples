@@ -1,0 +1,23 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Testing the NPM Init Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom McClean",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp-cssnano": "^2.1.2"
+  }
+}
