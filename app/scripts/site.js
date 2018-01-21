@@ -1,4 +1,0 @@
-﻿function helloWorld()
-{
-    alert("HELLO");
-}

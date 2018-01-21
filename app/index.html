@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Gulp Example</title>
 
-    <!--build:css css/site.min.css-->
-    <link href="css/site.css" rel="stylesheet" />
+    <!--build:css styles/site.min.css-->
+    <link href="/styles/site.scss" rel="stylesheet" />
     <!--endbuild-->
 
-    <!--build:js js/site.min.js-->
-    <script src="scripts/site.js"></script>
+    <!--build:css styles/featureone.min.css-->
+    <link href="/features/featureone/styles/featureone.component.css" rel="stylesheet" />
+    <!--endbuild-->
+
+    <!--build:css styles/featuretwo.min.css-->
+    <link href="/features/featuretwo/styles/featuretwo.component.css" rel="stylesheet" />
+    <link href="/features/featuretwo/styles/featuretwo-landing.css" rel="stylesheet" />
+    <!--endbuild-->
+
+    <!--build:js scripts/featureone.min.js-->
+    <script src="/features/featureone/scripts/featureone.js"></script>
+    <!--endbuild-->
+
+    <!--build:js scripts/featuretwo.min.js-->
+    <script src="/features/featuretwo/scripts/featuretwo.js"></script>
     <!--endbuild-->
 </head>
 
 <body>
     <h1>Welcome to my Gulp Example</h1>
 
+    <div id="feature-one">
+        <p>This is Feature One</p>
+    </div>
+
+    <div id="feature-two">
+        <p>This is Feature Two</p>
+    </div>
 </body>
+
 </html>
